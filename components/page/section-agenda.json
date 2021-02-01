@@ -1,17 +1,12 @@
 {
-  "collectionName": "components_page_modules",
+  "collectionName": "components_page_section_agenda",
   "info": {
-    "name": "modules",
-    "icon": "clone",
-    "description": ""
+    "name": "sectionAgenda",
+    "icon": "calendar-alt"
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string",
-      "required": true
-    },
-    "subTitle": {
       "type": "string",
       "required": true
     },

@@ -1,9 +1,8 @@
 {
-  "collectionName": "components_page_section_modules",
+  "collectionName": "components_page_section_faqs",
   "info": {
-    "name": "sectionModules",
-    "icon": "archway",
-    "description": ""
+    "name": "sectionFaq",
+    "icon": "question"
   },
   "options": {},
   "attributes": {
@@ -11,10 +10,11 @@
       "type": "string",
       "required": true
     },
-    "modules": {
+    "question": {
       "type": "component",
       "repeatable": true,
-      "component": "page.modules",
+      "component": "page.question",
+      "min": 2,
       "required": true
     }
   }
