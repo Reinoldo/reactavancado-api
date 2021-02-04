@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_teches",
+  "info": {
+    "name": "tech",
+    "icon": "atom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "techIcons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.tech-icons",
+      "required": true
+    }
+  }
+}
