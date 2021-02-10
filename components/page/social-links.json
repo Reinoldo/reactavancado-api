@@ -2,19 +2,20 @@
   "collectionName": "components_page_social_links",
   "info": {
     "name": "socialLinks",
-    "icon": "network-wired"
+    "icon": "network-wired",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "socialMedia": {
+    "title": {
       "type": "enumeration",
       "enum": [
         "Github",
         "Twitter",
-        "Facebook",
-        "Instagram"
+        "Dribbble"
       ],
-      "required": true
+      "required": true,
+      "default": "Twitter"
     },
     "url": {
       "type": "string",

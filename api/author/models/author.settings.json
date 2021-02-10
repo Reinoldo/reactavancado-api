@@ -22,7 +22,8 @@
     "socialLinks": {
       "type": "component",
       "repeatable": true,
-      "component": "page.social-links"
+      "component": "page.social-links",
+      "required": true
     },
     "photo": {
       "model": "file",
